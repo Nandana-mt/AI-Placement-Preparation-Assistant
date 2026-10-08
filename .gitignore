@@ -1,0 +1,36 @@
+*.txt
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environment
+backend/venv/
+backend/.venv/
+
+# Environment variables
+backend/.env
+
+# Uploaded and generated files
+backend/uploads/
+backend/generated/
+
+# Old Gemini test script
+backend/k.py
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
